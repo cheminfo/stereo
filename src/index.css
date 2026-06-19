@@ -297,8 +297,83 @@ code {
   max-width: 420px;
 }
 
+/* Atom labeling panel */
+.labeling__header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.8rem 1rem;
+  background: var(--bg-soft);
+}
+
+.labeling__header h2 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.labeling__hint {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  max-width: 70ch;
+}
+
+kbd {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0.02rem 0.3rem;
+  font-size: 0.8em;
+  font-family: inherit;
+}
+
+.labeling__views {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(280px, 1fr);
+  gap: 1rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.labeling__figure {
+  margin: 0;
+}
+
+.labeling__figure figcaption {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+.labeling__mapping-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.4rem;
+  max-width: 360px;
+}
+
+.labeling__mapping-head h3 {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.labeling__empty {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.mapping-table {
+  max-width: 360px;
+}
+
 @media (max-width: 880px) {
-  .card__views {
+  .card__views,
+  .labeling__views {
     grid-template-columns: 1fr;
   }
 }

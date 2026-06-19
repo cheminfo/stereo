@@ -55,3 +55,17 @@ export function build2DMolecule(
   molecule.inventCoordinates({ keepHydrogens: true });
   return molecule;
 }
+
+/**
+ * Builds a 2D OpenChemLib molecule with invented coordinates and no atom labels,
+ * to serve as the editable depiction the user numbers interactively. Atom order
+ * is preserved, so atom index `i` matches the shift table, the 3D viewer and the
+ * Gaussian-numbered depiction.
+ * @param atoms - The representative conformer's atoms.
+ * @returns The molecule with 2D coordinates and no custom labels.
+ */
+export function buildBareMolecule(atoms: ParsedAtom[]): Molecule {
+  const molecule = createMolecule(atoms);
+  molecule.inventCoordinates({ keepHydrogens: true });
+  return molecule;
+}

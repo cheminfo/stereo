@@ -11,6 +11,8 @@ export interface ShiftRow {
   element: string;
   /** Boltzmann-averaged isotropic shielding σ in ppm. */
   sigma: number;
+  /** User-assigned custom label, when one has been set for this atom. */
+  customLabel?: string;
 }
 
 interface ShiftTableProps {
@@ -33,11 +35,13 @@ export function ShiftTable({
   onHover,
 }: ShiftTableProps) {
   const showShift = references.C !== null || references.H !== null;
+  const showCustom = rows.some((row) => row.customLabel);
   return (
     <table className="shift-table">
       <thead>
         <tr>
           <th>Atom</th>
+          {showCustom ? <th>Custom</th> : null}
           <th>σ (ppm)</th>
           {showShift ? <th>δ (ppm)</th> : null}
         </tr>
@@ -57,6 +61,7 @@ export function ShiftTable({
               onMouseLeave={() => onHover(null)}
             >
               <td>{row.label}</td>
+              {showCustom ? <td>{row.customLabel ?? '—'}</td> : null}
               <td>{Number.isNaN(row.sigma) ? '—' : row.sigma.toFixed(2)}</td>
               {showShift ? (
                 <td>{shift === null ? '—' : shift.toFixed(2)}</td>

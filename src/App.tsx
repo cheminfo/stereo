@@ -1,9 +1,11 @@
 import { useCallback, useMemo, useState } from 'react';
 
+import { AtomLabeling } from './components/AtomLabeling.tsx';
 import { Controls } from './components/Controls.tsx';
 import { DropZone } from './components/DropZone.tsx';
 import { StereoisomerCard } from './components/StereoisomerCard.tsx';
 import { loadExampleFiles } from './exampleLoader.ts';
+import { assignAtomLabels } from './lib/atomLabels.ts';
 import { DEFAULT_TEMPERATURE_K } from './lib/constants.ts';
 import { groupStereoisomers } from './lib/groupStereoisomers.ts';
 import type { RawLogFile } from './lib/parseLogs.ts';
@@ -25,8 +27,33 @@ export function App() {
     H: null,
   });
   const [loading, setLoading] = useState(false);
+  const [customLabels, setCustomLabels] = useState<Map<number, string>>(
+    new Map(),
+  );
 
   const groups = useMemo(() => groupStereoisomers(logs), [logs]);
+
+  const representativeAtoms = useMemo(
+    () => groups[0]?.conformers[0]?.atoms ?? null,
+    [groups],
+  );
+  const gaussianLabels = useMemo(
+    () => (representativeAtoms ? assignAtomLabels(representativeAtoms) : []),
+    [representativeAtoms],
+  );
+  // Drop stale per-index labels when a different molecule is loaded; identical
+  // constitution (more conformers of the same molecule) keeps the labelling.
+  // Reset during render — the documented pattern for adjusting state on a
+  // changing input — rather than in an effect.
+  const atomSignature = useMemo(
+    () => representativeAtoms?.map((atom) => atom.element).join(',') ?? '',
+    [representativeAtoms],
+  );
+  const [labelledSignature, setLabelledSignature] = useState(atomSignature);
+  if (labelledSignature !== atomSignature) {
+    setLabelledSignature(atomSignature);
+    setCustomLabels(new Map());
+  }
 
   const handleFiles = useCallback((files: RawLogFile[]) => {
     const { logs: parsed, errors: parseErrors } = parseLogFiles(files);
@@ -94,12 +121,21 @@ export function App() {
             {groups.length} stereoisomer{groups.length > 1 ? 's' : ''} ·{' '}
             {logs.length} conformers
           </p>
+          {representativeAtoms ? (
+            <AtomLabeling
+              atoms={representativeAtoms}
+              gaussianLabels={gaussianLabels}
+              customLabels={customLabels}
+              onChange={setCustomLabels}
+            />
+          ) : null}
           {groups.map((group, index) => (
             <StereoisomerCard
               key={group.stereoisomer}
               group={group}
               temperature={temperature}
               references={references}
+              customLabels={customLabels}
               defaultExpanded={index === 0}
             />
           ))}

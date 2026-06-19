@@ -19,6 +19,7 @@ interface StereoisomerCardProps {
   group: StereoisomerGroup;
   temperature: number;
   references: ReferenceShifts;
+  customLabels: Map<number, string>;
   defaultExpanded: boolean;
 }
 
@@ -28,6 +29,7 @@ function buildRows(
   labels: string[],
   averaged: number[],
   group: StereoisomerGroup,
+  customLabels: Map<number, string>,
 ): ShiftRow[] {
   const atoms = group.conformers[0]?.atoms ?? [];
   const rows = atoms.map((atom, index) => ({
@@ -35,6 +37,7 @@ function buildRows(
     label: labels[index] ?? `${atom.element}${index + 1}`,
     element: atom.element,
     sigma: averaged[index] ?? Number.NaN,
+    customLabel: customLabels.get(index),
   }));
   return rows.toSorted(
     (a, b) =>
@@ -58,6 +61,7 @@ export function StereoisomerCard({
   group,
   temperature,
   references,
+  customLabels,
   defaultExpanded,
 }: StereoisomerCardProps) {
   const [expanded, setExpanded] = useState(defaultExpanded);
@@ -95,8 +99,8 @@ export function StereoisomerCard({
     [group, temperature],
   );
   const rows = useMemo(
-    () => buildRows(labels, averaged, group),
-    [labels, averaged, group],
+    () => buildRows(labels, averaged, group, customLabels),
+    [labels, averaged, group, customLabels],
   );
 
   if (!representative) return null;
