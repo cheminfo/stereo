@@ -1,0 +1,162 @@
+{
+  "temperature": 300,
+  "isomers": [
+    {
+      "stereoisomer": 1,
+      "mae": 2.7300093533713374,
+      "rmse": 3.4352482824965525,
+      "r2": 0.9580118396877133,
+      "logProbability": -19.891281192215484,
+      "slope": -0.671573448182757,
+      "intercept": 229.74063108492135,
+      "conformerTable": [
+        {
+          "conformer": 1,
+          "deltaEkcal": 0,
+          "population": 0.9713939387476247
+        },
+        {
+          "conformer": 2,
+          "deltaEkcal": 2.111192874543844,
+          "population": 0.02814642771702342
+        },
+        {
+          "conformer": 3,
+          "deltaEkcal": 4.5922574033733135,
+          "population": 0.00043853601496083525
+        },
+        {
+          "conformer": 4,
+          "deltaEkcal": 6.401181474257874,
+          "population": 0.000021097520391073947
+        }
+      ],
+      "dp4Raw": 1,
+      "dp4": 0.934323977943266
+    },
+    {
+      "stereoisomer": 2,
+      "mae": 3.257267830095699,
+      "rmse": 3.8253711123953567,
+      "r2": 0.9484530815358289,
+      "logProbability": -22.56924720686664,
+      "slope": -0.6294202163151448,
+      "intercept": 228.7680818378002,
+      "conformerTable": [
+        {
+          "conformer": 1,
+          "deltaEkcal": 0,
+          "population": 0.9417636892804011
+        },
+        {
+          "conformer": 2,
+          "deltaEkcal": 1.6621408197826015,
+          "population": 0.057955875605816956
+        },
+        {
+          "conformer": 3,
+          "deltaEkcal": 5.173993198872066,
+          "population": 0.000160238208949575
+        },
+        {
+          "conformer": 4,
+          "deltaEkcal": 7.549082672686868,
+          "population": 0.0000029822860083214967
+        },
+        {
+          "conformer": 5,
+          "deltaEkcal": 5.392433011808275,
+          "population": 0.00011108002765450378
+        },
+        {
+          "conformer": 6,
+          "deltaEkcal": 7.119099375840658,
+          "population": 0.000006134591169644851
+        }
+      ],
+      "dp4Raw": 0.06870275252769383,
+      "dp4": 0.06419062903732667
+    },
+    {
+      "stereoisomer": 3,
+      "mae": 3.9361721941328267,
+      "rmse": 4.550373665753911,
+      "r2": 0.9285901832181801,
+      "logProbability": -26.933611397305704,
+      "slope": -0.6754025411037169,
+      "intercept": 230.70778497669093,
+      "conformerTable": [
+        {
+          "conformer": 1,
+          "deltaEkcal": 0.8269508102433575,
+          "population": 0.1691349283599642
+        },
+        {
+          "conformer": 2,
+          "deltaEkcal": 0,
+          "population": 0.6771025864848677
+        },
+        {
+          "conformer": 3,
+          "deltaEkcal": 0.8844815063086086,
+          "population": 0.15357589716572473
+        },
+        {
+          "conformer": 4,
+          "deltaEkcal": 4.955055770834935,
+          "population": 0.00016633024260039029
+        },
+        {
+          "conformer": 5,
+          "deltaEkcal": 6.333140622013606,
+          "population": 0.000016483796013435673
+        },
+        {
+          "conformer": 6,
+          "deltaEkcal": 7.5883145649519,
+          "population": 0.000002007622162807008
+        },
+        {
+          "conformer": 7,
+          "deltaEkcal": 7.664651720035038,
+          "population": 0.0000017663286668608023
+        }
+      ],
+      "dp4Raw": 0.0008740873844571399,
+      "dp4": 0.00081668080211602
+    },
+    {
+      "stereoisomer": 4,
+      "mae": 4.005732231167709,
+      "rmse": 4.425703657708166,
+      "r2": 0.9321878073439002,
+      "logProbability": -27.133505921634114,
+      "slope": -0.6424327635231771,
+      "intercept": 229.55099927365595,
+      "conformerTable": [
+        {
+          "conformer": 1,
+          "deltaEkcal": 0,
+          "population": 0.9971466949917963
+        },
+        {
+          "conformer": 2,
+          "deltaEkcal": 3.526581908866404,
+          "population": 0.002689660250225181
+        },
+        {
+          "conformer": 3,
+          "deltaEkcal": 5.878827527814556,
+          "population": 0.00005201421359248376
+        },
+        {
+          "conformer": 4,
+          "deltaEkcal": 5.423552461634787,
+          "population": 0.00011163054438587804
+        }
+      ],
+      "dp4Raw": 0.0007157177093575389,
+      "dp4": 0.0006687122172913782
+    }
+  ]
+}

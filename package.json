@@ -1,0 +1,40 @@
+{
+  "name": "stereo-nmr",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Drag-and-drop Gaussian GIAO log files to group conformers by stereoisomer and Boltzmann-average their NMR chemical shifts, with linked 2D (react-ocl) and 3D (Mol*) atom highlighting.",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "check-types": "tsc --noEmit",
+    "dev": "vite",
+    "eslint": "eslint src",
+    "eslint-fix": "eslint src --fix",
+    "prettier": "prettier --check src",
+    "prettier-write": "prettier --write src",
+    "preview": "vite preview",
+    "test": "npm run test-only && npm run check-types && npm run eslint && npm run prettier",
+    "test-only": "vitest run --coverage"
+  },
+  "dependencies": {
+    "molstar": "^5.10.1",
+    "openchemlib": "^9.23.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-ocl": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "@vitest/coverage-v8": "^4.1.9",
+    "@zakodium/tsconfig": "^1.0.5",
+    "eslint": "^9.39.4",
+    "eslint-config-zakodium": "^20.1.0",
+    "prettier": "^3.8.4",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.9"
+  }
+}

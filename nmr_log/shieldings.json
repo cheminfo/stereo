@@ -1,0 +1,4207 @@
+{
+  "source": "Gaussian 16 GIAO, # nmr=giao hf/sto-3g pop=nbo",
+  "generated": "parseLogs.mjs",
+  "count": 21,
+  "molecules": [
+    {
+      "file": "1_elaeocarpine_c1.log",
+      "stereoisomer": 1,
+      "conformer": 1,
+      "normalTermination": true,
+      "scfEnergy": -811.06422734,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 114.1843
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.9498
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.2462
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.5294
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.0631
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.7315
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.4074
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 333.9056
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 184.3545
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 208.1905
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 217.9198
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 202.1771
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 292.8225
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 193.049
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 213.126
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.6888
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 199.1395
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -338.2919
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.319
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.0851
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.5431
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 32.3278
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.907
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2825
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.6887
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.2421
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.6206
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.4877
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 32.6605
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 31.8303
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.3384
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 31.9815
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.6977
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.5227
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 32.3615
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.3111
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 31.0112
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.7412
+        }
+      ]
+    },
+    {
+      "file": "1_elaeocarpine_c2.log",
+      "stereoisomer": 1,
+      "conformer": 2,
+      "normalTermination": true,
+      "scfEnergy": -811.06086294,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 114.1081
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.8987
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.2539
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.5727
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.3877
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.8032
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.2178
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 335.0996
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 185.5251
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.2864
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 222.4991
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 205.1524
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 298.9916
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 194.3919
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 212.3445
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.2827
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 200.2948
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -340.8807
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.2405
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.6448
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.5713
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.3162
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.913
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.303
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7384
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.8139
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.8279
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.5922
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.7956
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.0145
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.1591
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 31.6426
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.1746
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.0669
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.6266
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.2777
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 31.0104
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.755
+        }
+      ]
+    },
+    {
+      "file": "1_elaeocarpine_c3.log",
+      "stereoisomer": 1,
+      "conformer": 3,
+      "normalTermination": true,
+      "scfEnergy": -811.056909112,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 114.0741
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.8639
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.2215
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.4709
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 103.6468
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.6328
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.8236
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 330.8135
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 185.5562
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 208.5484
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 216.9087
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 202.6392
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 296.6745
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 195.2613
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 211.3129
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.8253
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 196.5566
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -338.3965
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.2476
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.5078
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.1689
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.3104
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8974
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2858
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7016
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.3765
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.399
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 32.3435
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.5454
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.3491
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.2426
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.2159
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.8459
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.2513
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.443
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.2547
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9968
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.744
+        }
+      ]
+    },
+    {
+      "file": "1_elaeocarpine_c4.log",
+      "stereoisomer": 1,
+      "conformer": 4,
+      "normalTermination": true,
+      "scfEnergy": -811.054026408,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.8111
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.8191
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.2532
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.3073
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.3361
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.8739
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 89.8794
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 335.7339
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 186.4467
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 208.1482
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 217.1224
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.2232
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 289.829
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 193.253
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 210.1234
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.4231
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 197.7984
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -345.0208
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0416
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.4884
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.085
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.2496
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8857
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2808
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.6867
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.4559
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.203
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 32.186
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.6672
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.0775
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.314
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.1862
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.1505
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.7943
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.4151
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.0762
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9728
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.8398
+        }
+      ]
+    },
+    {
+      "file": "2_elaeocarpine_c1.log",
+      "stereoisomer": 2,
+      "conformer": 1,
+      "normalTermination": true,
+      "scfEnergy": -811.064368068,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.7162
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.6847
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.3826
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.2994
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 105.0936
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 131.0351
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.1665
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 343.2484
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 186.5995
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 209.0747
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 217.1313
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 202.0639
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 292.7659
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 194.5333
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 213.5689
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.1507
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 198.912
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -361.6156
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0295
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 30.5353
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.189
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 32.5876
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8927
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.3082
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7286
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.6737
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.4685
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.5054
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 32.0716
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 31.5636
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.6363
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 31.7725
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.2345
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.5201
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 32.3731
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.0085
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9892
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.9322
+        }
+      ]
+    },
+    {
+      "file": "2_elaeocarpine_c2.log",
+      "stereoisomer": 2,
+      "conformer": 2,
+      "normalTermination": true,
+      "scfEnergy": -811.061719278,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.7729
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.8207
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.224
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.5546
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 105.2258
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 131.7881
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 89.846
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 341.6167
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.7111
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 213.0508
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 222.2069
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 205.6597
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 299.0993
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 196.1408
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 214.4027
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.2586
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 200.7705
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -359.3029
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0844
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.1291
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.319
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.8787
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8975
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2806
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7115
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 32.2407
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.7333
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.6345
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.1574
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.4289
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.8162
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 31.95
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.8239
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.0285
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.5099
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.8589
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9955
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 31.1517
+        }
+      ]
+    },
+    {
+      "file": "2_elaeocarpine_c3.log",
+      "stereoisomer": 2,
+      "conformer": 3,
+      "normalTermination": true,
+      "scfEnergy": -811.056122785,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.7436
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.8825
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.2124
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.2956
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 105.2885
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 131.5897
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.4659
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 339.8127
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.1873
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 210.0772
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 216.2412
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 202.9107
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 297.7761
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 196.5553
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 211.9801
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.2894
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 196.4162
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -361.9859
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0175
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.0082
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.0965
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.5999
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8905
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2666
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.6516
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.6412
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 30.9783
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 32.5208
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.4924
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.0263
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.611
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.3104
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.07
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.2423
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.4536
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.0068
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9846
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.9672
+        }
+      ]
+    },
+    {
+      "file": "2_elaeocarpine_c4.log",
+      "stereoisomer": 2,
+      "conformer": 4,
+      "normalTermination": true,
+      "scfEnergy": -811.052337839,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.8346
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 124.0443
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.1904
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 130.8957
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 107.0148
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 132.0679
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 88.8306
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 346.2572
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 188.1437
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 207.4157
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 219.582
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 202.3329
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 294.8727
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 192.5502
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 210.9986
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.703
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 198.1991
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -346.4854
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0236
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 30.6822
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 29.656
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 32.5781
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.9283
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.3033
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.705
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.8421
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 33.0564
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.4944
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 32.5886
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 31.6057
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.2813
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.0066
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.6767
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.4956
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.486
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.7861
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 31.019
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 31.2677
+        }
+      ]
+    },
+    {
+      "file": "2_elaeocarpine_c5.log",
+      "stereoisomer": 2,
+      "conformer": 5,
+      "normalTermination": true,
+      "scfEnergy": -811.055774679,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.5138
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.8361
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.3337
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.0299
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 106.5968
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 131.0609
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 91.033
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 343.7233
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 189.3642
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.1483
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 220.3581
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.6482
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 286.347
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 193.6022
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 213.6044
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.3316
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 197.4452
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -340.4442
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0141
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.1063
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 30.4295
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.4334
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8749
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2964
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7184
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 32.1126
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 32.8401
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 32.504
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.8342
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.0561
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.8523
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.0035
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.0454
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.4556
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.8159
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.723
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9695
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 31.0752
+        }
+      ]
+    },
+    {
+      "file": "2_elaeocarpine_c6.log",
+      "stereoisomer": 2,
+      "conformer": 6,
+      "normalTermination": true,
+      "scfEnergy": -811.053023061,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.7338
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.9119
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.1722
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.3558
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.638
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 131.5291
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.2111
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 337.3824
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.445
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 209.9589
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 216.4839
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.4061
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 291.382
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 195.4316
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 211.5093
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.7546
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 197.7398
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -357.2583
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0508
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.0278
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.1829
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.6858
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8899
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2595
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.635
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.7979
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 30.9099
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 32.3251
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.5926
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 31.9481
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.2134
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.1569
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.3073
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.7954
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.4799
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.9301
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9768
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 31.0236
+        }
+      ]
+    },
+    {
+      "file": "3_elaeocarpine_c1.log",
+      "stereoisomer": 3,
+      "conformer": 1,
+      "normalTermination": true,
+      "scfEnergy": -811.058111289,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.8606
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.5027
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.3866
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.1596
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.8627
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.1558
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.5081
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 345.6412
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 188.4591
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.883
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 217.9586
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 204.1634
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 284.1159
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 194.2989
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 215.9317
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.2032
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 197.753
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -356.6663
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.1587
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 30.5614
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.3119
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.9812
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8766
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.311
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7328
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.7202
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.5034
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.9846
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.5777
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.5545
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 33.1153
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.1966
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.277
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.7178
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.4241
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.1287
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9938
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.819
+        }
+      ]
+    },
+    {
+      "file": "3_elaeocarpine_c2.log",
+      "stereoisomer": 3,
+      "conformer": 2,
+      "normalTermination": true,
+      "scfEnergy": -811.059429119,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.4492
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.9073
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.4274
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 130.9967
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 106.188
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.8538
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.7919
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 340.0198
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 185.8128
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.5606
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 219.7102
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 201.781
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 293.2331
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 191.6417
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 215.7428
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.7506
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 198.5698
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -343.3339
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 217.8027
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.2233
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 30.4087
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 32.1371
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8789
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2944
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.6981
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 32.7853
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 32.0744
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.8181
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 32.655
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 30.8027
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.9103
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.128
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.6532
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.4572
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.7862
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.9194
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9541
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.8341
+        }
+      ]
+    },
+    {
+      "file": "3_elaeocarpine_c3.log",
+      "stereoisomer": 3,
+      "conformer": 3,
+      "normalTermination": true,
+      "scfEnergy": -811.058019608,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.68
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.7619
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.5069
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 130.7974
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 106.4205
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.0736
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.6844
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 342.3987
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 186.5823
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.2737
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 219.747
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 201.6864
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 293.3374
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 192.3481
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 216.0071
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.1452
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 198.8139
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -348.3598
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.1987
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.074
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 30.4012
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 32.1385
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.867
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.3062
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7029
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 32.8404
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 32.093
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.804
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 32.6779
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 31.1383
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.9435
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.0626
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.8979
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.3739
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.6485
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.2182
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9932
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.6663
+        }
+      ]
+    },
+    {
+      "file": "3_elaeocarpine_c4.log",
+      "stereoisomer": 3,
+      "conformer": 4,
+      "normalTermination": true,
+      "scfEnergy": -811.051532735,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.9592
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.5432
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.3542
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.0314
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 105.8428
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.5703
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 91.433
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 345.5811
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.9634
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 212.6057
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 221.0514
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 205.2802
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 300.6778
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 194.7922
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 214.4576
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.1076
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 198.6503
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -354.3004
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.2601
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 30.9033
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.1064
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.6754
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8761
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.3105
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.736
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.5807
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.7816
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.7346
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.7625
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.541
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.9963
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.0763
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.4205
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.0302
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.5132
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.286
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 31.0094
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.7256
+        }
+      ]
+    },
+    {
+      "file": "3_elaeocarpine_c5.log",
+      "stereoisomer": 3,
+      "conformer": 5,
+      "normalTermination": true,
+      "scfEnergy": -811.049336617,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.7783
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 124.3062
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.0397
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.2532
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 106.0501
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 132.0537
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.1031
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 332.9415
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 186.6112
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.5883
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 217.3821
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.7684
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 298.0574
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 194.8776
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 214.2254
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.8084
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 196.0483
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -334.9644
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.075
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.3743
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 29.996
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.1057
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.953
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2898
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7071
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 32.6101
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.4675
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 33.7984
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.9655
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 31.309
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.9179
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.1053
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.7976
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.48
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.6767
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.8266
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 31.0275
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 31.3305
+        }
+      ]
+    },
+    {
+      "file": "3_elaeocarpine_c6.log",
+      "stereoisomer": 3,
+      "conformer": 6,
+      "normalTermination": true,
+      "scfEnergy": -811.04733637,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 114.0152
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.4485
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.3749
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 130.9898
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 105.398
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 129.9461
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 91.1767
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 345.8973
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.9345
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.9315
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 219.3775
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.5065
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 297.3231
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 194.2019
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 213.5633
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.6676
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 196.5197
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -355.7362
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.2981
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 30.9381
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.1632
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.6128
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.866
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.3097
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7312
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.6985
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.7613
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.6576
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.7395
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 33.094
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.2709
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.117
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.4077
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.83
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.336
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.2739
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 31.0043
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.7186
+        }
+      ]
+    },
+    {
+      "file": "3_elaeocarpine_c7.log",
+      "stereoisomer": 3,
+      "conformer": 7,
+      "normalTermination": true,
+      "scfEnergy": -811.047214719,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 114.1997
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.4731
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.3732
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 130.8737
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 106.1931
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.1095
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 91.6468
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 347.3125
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.8873
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 210.7067
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 218.6805
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.2661
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 294.5713
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 193.6838
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 213.8255
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.6059
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 195.9644
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -350.5301
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.4945
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 30.9065
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.0921
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.4823
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8629
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.309
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7336
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.7806
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.6343
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.6003
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.8265
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.6353
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.3638
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.1788
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.2735
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.8229
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.3131
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.4289
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 31.0282
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.6635
+        }
+      ]
+    },
+    {
+      "file": "4_elaeocarpine_c1.log",
+      "stereoisomer": 4,
+      "conformer": 1,
+      "normalTermination": true,
+      "scfEnergy": -811.058925663,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.8456
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.7234
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.2459
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.2611
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.2303
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.4902
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.7054
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 338.6298
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.3921
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 209.6264
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 217.9966
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.2142
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 282.8306
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 193.7902
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 216.0707
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.0725
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 197.7378
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -340.5609
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0723
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 30.8924
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.5981
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.494
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8901
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2871
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.6861
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.598
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.3538
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 32.5197
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.489
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.8689
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.1584
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.1687
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.0578
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.721
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.3668
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.9117
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9846
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 31.0261
+        }
+      ]
+    },
+    {
+      "file": "4_elaeocarpine_c2.log",
+      "stereoisomer": 4,
+      "conformer": 2,
+      "normalTermination": true,
+      "scfEnergy": -811.053305697,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.7346
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.2283
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 116.3357
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.23
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.2409
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.665
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.7362
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 337.1342
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 188.0404
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 211.4264
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 220.4411
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 205.4122
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 301.662
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 195.145
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 214.2201
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 216.316
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 199.2912
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -344.2466
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.0438
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.2217
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.3947
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.2963
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.9012
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2723
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.6991
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.5802
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.7479
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.5419
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.6966
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 33.0412
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 32.0597
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.4353
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 31.8554
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 32.2927
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.628
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.9647
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9848
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.9798
+        }
+      ]
+    },
+    {
+      "file": "4_elaeocarpine_c3.log",
+      "stereoisomer": 4,
+      "conformer": 3,
+      "normalTermination": true,
+      "scfEnergy": -811.049557155,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.8769
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.7197
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.2379
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 131.3004
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 103.8851
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 130.4734
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.7445
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 334.1062
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 187.4923
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 210.4445
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 218.5611
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 202.7695
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 297.9524
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 194.445
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 212.8158
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.5806
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 196.7535
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -342.5298
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.1186
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.204
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 31.4188
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 30.2788
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.8879
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2906
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.7094
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.5039
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.9955
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 31.4006
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.7337
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 33.0518
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.7343
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 32.5964
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.3447
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.867
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 31.2974
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 30.8609
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9816
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 31.0626
+        }
+      ]
+    },
+    {
+      "file": "4_elaeocarpine_c4.log",
+      "stereoisomer": 4,
+      "conformer": 4,
+      "normalTermination": true,
+      "scfEnergy": -811.050282682,
+      "atomCount": 38,
+      "shieldings": [
+        {
+          "index": 1,
+          "element": "C",
+          "isotropic": 113.8566
+        },
+        {
+          "index": 2,
+          "element": "C",
+          "isotropic": 123.5668
+        },
+        {
+          "index": 3,
+          "element": "C",
+          "isotropic": 117.4523
+        },
+        {
+          "index": 4,
+          "element": "C",
+          "isotropic": 130.8701
+        },
+        {
+          "index": 5,
+          "element": "C",
+          "isotropic": 104.2392
+        },
+        {
+          "index": 6,
+          "element": "C",
+          "isotropic": 129.5597
+        },
+        {
+          "index": 7,
+          "element": "C",
+          "isotropic": 90.0589
+        },
+        {
+          "index": 8,
+          "element": "O",
+          "isotropic": 341.6768
+        },
+        {
+          "index": 9,
+          "element": "C",
+          "isotropic": 186.2625
+        },
+        {
+          "index": 10,
+          "element": "C",
+          "isotropic": 209.3672
+        },
+        {
+          "index": 11,
+          "element": "C",
+          "isotropic": 217.1035
+        },
+        {
+          "index": 12,
+          "element": "C",
+          "isotropic": 203.8569
+        },
+        {
+          "index": 13,
+          "element": "N",
+          "isotropic": 295.9428
+        },
+        {
+          "index": 14,
+          "element": "C",
+          "isotropic": 192.9825
+        },
+        {
+          "index": 15,
+          "element": "C",
+          "isotropic": 215.0481
+        },
+        {
+          "index": 16,
+          "element": "C",
+          "isotropic": 215.5924
+        },
+        {
+          "index": 17,
+          "element": "C",
+          "isotropic": 200.7613
+        },
+        {
+          "index": 18,
+          "element": "O",
+          "isotropic": -345.3986
+        },
+        {
+          "index": 19,
+          "element": "C",
+          "isotropic": 218.1957
+        },
+        {
+          "index": 20,
+          "element": "H",
+          "isotropic": 31.0468
+        },
+        {
+          "index": 21,
+          "element": "H",
+          "isotropic": 30.8886
+        },
+        {
+          "index": 22,
+          "element": "H",
+          "isotropic": 31.5916
+        },
+        {
+          "index": 23,
+          "element": "H",
+          "isotropic": 25.863
+        },
+        {
+          "index": 24,
+          "element": "H",
+          "isotropic": 25.2911
+        },
+        {
+          "index": 25,
+          "element": "H",
+          "isotropic": 25.6582
+        },
+        {
+          "index": 26,
+          "element": "H",
+          "isotropic": 31.5425
+        },
+        {
+          "index": 27,
+          "element": "H",
+          "isotropic": 31.161
+        },
+        {
+          "index": 28,
+          "element": "H",
+          "isotropic": 32.2623
+        },
+        {
+          "index": 29,
+          "element": "H",
+          "isotropic": 31.5373
+        },
+        {
+          "index": 30,
+          "element": "H",
+          "isotropic": 32.6361
+        },
+        {
+          "index": 31,
+          "element": "H",
+          "isotropic": 31.8209
+        },
+        {
+          "index": 32,
+          "element": "H",
+          "isotropic": 31.8938
+        },
+        {
+          "index": 33,
+          "element": "H",
+          "isotropic": 32.0643
+        },
+        {
+          "index": 34,
+          "element": "H",
+          "isotropic": 31.7117
+        },
+        {
+          "index": 35,
+          "element": "H",
+          "isotropic": 32.3609
+        },
+        {
+          "index": 36,
+          "element": "H",
+          "isotropic": 31.1712
+        },
+        {
+          "index": 37,
+          "element": "H",
+          "isotropic": 30.9893
+        },
+        {
+          "index": 38,
+          "element": "H",
+          "isotropic": 30.7633
+        }
+      ]
+    }
+  ]
+}
