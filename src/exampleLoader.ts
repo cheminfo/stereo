@@ -1,13 +1,13 @@
 import type { RawLogFile } from './lib/parseLogs.ts';
 
-const exampleModules = import.meta.glob('../data/example/*.log', {
+const exampleModules = import.meta.glob('../data/example/logs/*.log', {
   query: '?raw',
   import: 'default',
 }) as Record<string, () => Promise<string>>;
 
 /**
  * Loads the bundled elaeocarpine example dataset (21 Gaussian GIAO logs) from the
- * project's `data/example` folder, running through the same drag-and-drop path.
+ * project's `data/example/logs` folder, running through the same drag-and-drop path.
  * The files are discovered at build time by `import.meta.glob` and fetched lazily,
  * so they ship as on-demand chunks instead of bloating the main bundle.
  * @returns The example files as raw `{ name, content }` records.
@@ -17,7 +17,7 @@ export async function loadExampleFiles(): Promise<RawLogFile[]> {
     a.localeCompare(b),
   );
   if (entries.length === 0) {
-    throw new Error('No example files found in data/example');
+    throw new Error('No example files found in data/example/logs');
   }
   return Promise.all(
     entries.map(async ([path, load]) => {
