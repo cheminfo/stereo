@@ -24,6 +24,16 @@ function createMolecule(atoms: ParsedAtom[]): Molecule {
   return molecule;
 }
 
+// OpenChemLib draws a custom label prefixed with `]` as a small superscript next
+// to the element symbol it renders itself, so we drop the redundant element
+// prefix (`C16` → `]16`) to show `C` full size with `16` shrunk as a superscript.
+function superscriptLabel(label: string, element: string): string {
+  const locant = label.startsWith(element)
+    ? label.slice(element.length)
+    : label;
+  return `]${locant}`;
+}
+
 /**
  * Builds a V2000 molfile carrying the 3D coordinates of one conformer, perceiving
  * bonds from the geometry. Atom order matches the input, so atom index `i` is the
@@ -39,9 +49,11 @@ export function buildMolfile3D(atoms: ParsedAtom[]): string {
  * Builds a 2D OpenChemLib molecule for depiction: bonds are perceived from the
  * 3D geometry, each atom gets a custom label, and 2D coordinates are invented.
  * Atom order is preserved, so atom index `i` matches the shift table and Mol*.
+ * Labels are rendered as superscripts beside the element symbol (`C1` shows as
+ * `C` with a small superscript `1`) so the depiction stays uncluttered.
  * @param atoms - The representative conformer's atoms.
  * @param labels - Custom atom labels aligned with `atoms` by index (e.g. `C1`).
- * @returns The molecule with 2D coordinates and custom labels set.
+ * @returns The molecule with 2D coordinates and superscript custom labels set.
  */
 export function build2DMolecule(
   atoms: ParsedAtom[],
@@ -50,7 +62,10 @@ export function build2DMolecule(
   const molecule = createMolecule(atoms);
   for (let i = 0; i < labels.length; i++) {
     const label = labels[i];
-    if (label) molecule.setAtomCustomLabel(i, label);
+    const atom = atoms[i];
+    if (label && atom) {
+      molecule.setAtomCustomLabel(i, superscriptLabel(label, atom.element));
+    }
   }
   molecule.inventCoordinates({ keepHydrogens: true });
   return molecule;

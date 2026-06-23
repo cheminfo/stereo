@@ -20,11 +20,11 @@ test('buildMolfile3D returns a V2000 molfile with all 38 atoms', () => {
   expect(countsLine?.trimStart().startsWith('38')).toBe(true);
 });
 
-test('build2DMolecule keeps atom order and applies custom labels', () => {
+test('build2DMolecule keeps atom order and applies superscript labels', () => {
   const labels = assignAtomLabels(atoms);
   const molecule = build2DMolecule(atoms, labels);
   expect(molecule.getAllAtoms()).toBe(38);
-  expect(molecule.getAtomCustomLabel(0)).toBe('C1');
-  expect(molecule.getAtomCustomLabel(18)).toBe('C16');
-  expect(molecule.getAtomCustomLabel(37)).toBe('H19');
+  expect(molecule.getAtomCustomLabel(0)).toBe(']1');
+  expect(molecule.getAtomCustomLabel(18)).toBe(']16');
+  expect(molecule.getAtomCustomLabel(37)).toBe(']19');
 });
