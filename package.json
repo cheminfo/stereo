@@ -1,6 +1,6 @@
 {
   "name": "stereo-nmr",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Drag-and-drop Gaussian GIAO log files to group conformers by stereoisomer and Boltzmann-average their NMR chemical shifts, with linked 2D (react-ocl) and 3D (Mol*) atom highlighting.",
   "type": "module",
